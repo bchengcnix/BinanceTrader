@@ -1,6 +1,6 @@
 import graphene
 from graphene_django.types import DjangoObjectType
-from payload.payload.balances.models import Category, Balance
+from payload.balances.models import Category, Balance
 
 
 class CategoryType(DjangoObjectType):
